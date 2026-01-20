@@ -8,11 +8,11 @@ const testimonials = [
   },
   {
     text: "Fast delivery and excellent finishing.",
-    name: "Client B",
+    name: "Mr. Jacob",
   },
   {
     text: "Best tailoring experience I've had in Port Harcourt.",
-    name: "Client C",
+    name: "Williams JRN",
   },
 ];
 
