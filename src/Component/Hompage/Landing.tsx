@@ -8,7 +8,7 @@ import img2 from "../assets/Upandan.jpg";
 import img3 from "../assets/Men's Cotton Linen Vintage Pattern Printed Old Style Shirt Casual Short Sleeve Button Down Retro Shirts.jpg";
 import img4 from "../assets/shirt and pants.jpg";
 import img5 from "../assets/Vintage Print Patchwork Short Sleeve Shirt For Men (Asymmetric Cutting).jpg";
-import TestimonialsCarousel from "../Testimonials/TestimonialsCarousel";
+import TestimonialsCarousel from "../TestimonialsCarousel/TestimonialsCarousel";
 
 const Landing = () => {
 
