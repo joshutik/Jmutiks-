@@ -3,6 +3,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "./Landing.css";
+import img1 from "../assets/made by man.jpg";
+import img2 from "../assets/Upandan.jpg";
+import img3 from "../assets/Men's Cotton Linen Vintage Pattern Printed Old Style Shirt Casual Short Sleeve Button Down Retro Shirts.jpg";
+import img4 from "../assets/shirt and pants.jpg";
+import img5 from "../assets/Vintage Print Patchwork Short Sleeve Shirt For Men (Asymmetric Cutting).jpg";
+import TestimonialsCarousel from "../Testimonials/TestimonialsCarousel";
 
 const Landing = () => {
 
@@ -42,9 +48,36 @@ const Landing = () => {
       <section className="section">
         <h2>Our Collections</h2>
         <div className="grid">
-          <div className="card" data-aos="zoom-in">Native Wear</div>
-          <div className="card" data-aos="zoom-in">Corporate Suits</div>
-          <div className="card" data-aos="zoom-in">Casual Outfits</div>
+          <div className="card" data-aos="zoom-in">Native Wear
+            <figure>
+              <img src={img1} alt="Native Wear" className="card-image" />
+            </figure>
+            <p className="card-text">Traditional attire crafted with modern elegance.</p>
+          </div>
+          <div className="card" data-aos="zoom-in"> Upandan
+            <figure>
+              <img src={img2} alt="Native Wear" className="card-image" />
+            </figure>
+            <p className="card-text">Coming Soon!!</p>
+          </div>
+          <div className="card" data-aos="zoom-in">Vintage Shirts
+            <figure>
+              <img src={img3} alt="Native Wear" className="card-image" />
+            </figure>
+            <p className="card-text">Men's Cotton Linen Vintage Pattern Printed Old Style Shirt Casual Short Sleeve Button Down Retro Shirts</p>
+          </div>
+          <div className="card" data-aos="zoom-in">Shirt & Pants
+            <figure>
+              <img src={img4} alt="Native Wear" className="card-image" />
+            </figure>
+            <p className="card-text">Shirt and Pant crafted with modern elegance.</p>
+          </div>
+          <div className="card" data-aos="zoom-in">Casual Outfits
+            <figure>
+              <img src={img5} alt="Native Wear" className="card-image" />
+            </figure>
+            <p className="card-text">Vintage Print Patchwork Short Sleeve Shirt For Men</p>
+          </div>
         </div>
       </section>
 
@@ -71,9 +104,10 @@ const Landing = () => {
 
       {/* Testimonials */}
       <section className="section alt">
-        <h2>Customer Reviews</h2>
+        {/* <h2>Customer Reviews</h2>
         <p>"Top quality and perfect fit. JM Utiks never disappoints."</p>
-        <p>"Fast delivery and excellent finishing."</p>
+        <p>"Fast delivery and excellent finishing."</p> */}
+        <TestimonialsCarousel />
       </section>
 
       {/* CTA */}
